@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.top-heading {
+  background-color: #0a0855;
+  width: 100vw;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+}
+
+.top-heading h1 {
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+.top-heading p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  margin: auto 0;
+}
+
+.profile img {
+  border-radius: 50%;
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top: 90px;
+  left: 50px;
+}
+
+.contact span {
+  font-size: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* resume style */
+.row-container {
+  display: flex;
+  height: 100vh;
+}
+
+.row-1 {
+  width: 35%;
+  background-color: #f4f4f4;
+  height: 100%;
+  padding: 60px 10px;
+}
+
+.row-1 h3,
+.row-2 h3 {
+  padding: 10px;
+}
+
+.row-1 p,
+.row-2 p {
+  padding: 10px 15px;
+}
+
+.row a:hover {
+  color: #0a0855;
+}
+
+#social-media {
+  margin-top: 40px;
+}
+
+.social-media {
+  margin-top: 20px;
+  padding: 10px 15px;
+}
+
+.row-wrapper {
+  display: flex;
+}
+
+.col-1 {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.col-1 p {
+  margin-bottom: 40px;
+}
+
+.row-2 {
+  padding: 10px 15px;
+}
+
+.skill-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  color: #0a0855;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .profile img {
+    border-radius: 50%;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 90px;
+    left: 20px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media .row {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .row-container {
+    height: 100vwh;
+  }
+  .row-1 {
+    height: 100%;
+  }
+  .top-heading h1 {
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+  }
+  .row-1 {
+    width: 45%;
+    background-color: #f4f4f4;
+    height: 100%;
+    padding: 80px 0px;
+  }
+  .row-1 p,
+  .row-2 p {
+    padding: 5px;
+  }
+
+  .social-media .row {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+}
